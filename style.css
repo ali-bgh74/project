@@ -91,7 +91,7 @@ img{
 .masthead .top_menu ul li a{
     display: block;
     padding: 20px 10px;
-    color: #fefefe;
+    color: #aeb6b9;
 }
 .masthead .top_menu ul li a:hover{
     color:rgb(54, 216, 54) ;
@@ -137,13 +137,13 @@ img{
     text-align: center;
 }
 .title h2{
-    font-size: 20px;
     margin-bottom: 10px;
     color: #193744;
 }
 .title p{
     padding: 10px 0;
     color: #182d37;
+    font-size: 20px;
 }
 .team .team_details{
     width: 33.33%;
@@ -251,6 +251,8 @@ img{
     border: 0;
     float: right;
     font-size: 18px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 .newsletter input[type="text"]:focus{
     outline: none;
@@ -260,6 +262,8 @@ img{
     height: 70px;
     background-color: #182d37;
     color: #fff;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 .blog{
     width: 100%;
@@ -285,10 +289,24 @@ img{
 }
 .footer{
     width: 100%;
-    padding: 20px 0;
-    text-align: center;
+    padding: 100px 0;
     float: right;
     background-color: #182d37;
-    color: #aeb6b9;
+    
+
+    
 }
+.footer .footer_text{
+    padding: 25px;
+    width: 100%;
+    text-align: center;
+    float: right;
+    background-color: #051a24;
+    color: #aeb6b9;
+    font-size: 18px;
+    border-radius: 10px;
+   
+    
+}
+
 
