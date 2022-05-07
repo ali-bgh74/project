@@ -283,4 +283,12 @@ img{
     line-height: 25px;
     float: right;
 }
+.footer{
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    float: right;
+    background-color: #182d37;
+    color: #aeb6b9;
+}
 
