@@ -68,6 +68,7 @@ img{
 .main{
     width: 1200px;
     margin: 0 auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); ;
 }
 .container{
     width: 1100px;
@@ -304,7 +305,6 @@ img{
     background-color: #051a24;
     color: #aeb6b9;
     font-size: 18px;
-    border-radius: 10px;
    
     
 }
